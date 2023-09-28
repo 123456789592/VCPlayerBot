@@ -129,8 +129,8 @@ async def start(client, message):
         return
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Mega_Bots'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot')
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/HindiTvFlix'),
+            InlineKeyboardButton('🧩 Source', url='https://t.me/HindiTvFlix')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help_main'),
@@ -188,11 +188,11 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Owner', url='https://t.me/YourSidharth'),
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/Mega_Bots_Supporters'),     
+            InlineKeyboardButton('🧩 Owner', url='https://t.me/RaistarRG'),
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/HindiTvFlix'),     
         ],
         [
-            InlineKeyboardButton("🎞 How to Deploy", url='https://t.me/Mega_Bots_Supporters'),
+            InlineKeyboardButton("🎞 How to Deploy", url='https://t.me/HindiTvFlix'),
             InlineKeyboardButton('🗑 Close', callback_data='close'),
         ]
     ]
